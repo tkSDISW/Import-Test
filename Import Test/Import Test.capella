@@ -208,6 +208,259 @@
             name="Logical System" abstractType="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="896ef2aa-001d-4219-96e8-4a018cae7cfe" name="Logical System">
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="887daf20-2049-4a0b-b60d-b000c72fd5e5" name="Ground Vehicle System     ">
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="236fe104-d9c5-4bb4-bee6-c1da44ffad50" name="Family of Vehicles   ">
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="7c73ac38-b746-4f47-acee-879b549c3d2d" name="Lead Variant   ">
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="b14f03ba-97b2-4c35-afb2-ecbf6867941d" name="Lead Variant Integration, Assembly, Test, and Checkout "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="38f3e6e8-beee-455e-9a7f-795adf5aa4da" name="Hull/Frame/Body/Cab "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="4524bbfe-a590-402d-a2de-db8ad1300620" name="System Survivability "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="2c5dd7a4-e30b-45dd-8157-55d861edc872" name="Turret Assembly "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="ebcd44c3-87b7-4710-965d-b7ca093e984d" name="Suspension/Steering "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="477664ed-6a36-413e-b14f-27dbb1e6c99e" name="Vehicle Electronics "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="3f4d3114-584d-4d9e-8589-c7c13da7fd78" name="Power Package/Drive Train "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="cd6354ed-949c-404a-b628-2fc6607ff999" name="Auxiliary Automotive "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="66ac7a2d-b238-44f9-94ec-4bbcd7c06c04" name="Fire Control "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="f0563dec-e857-42e8-bd5f-fe179428305b" name="Armament "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="51d0966a-ff74-4223-8a97-18d33fa0d674" name="Automatic Ammunition Handling"/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="15e8a7c5-6126-47ee-9e96-3bcf717a58ad" name=" Navigation and Remote Piloting Systems"/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="76b84bd4-6dd4-4554-8be6-02f3be499ecd" name="Special Equipment"/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="a476c02d-ff06-44ae-ba98-05a057fea387" name="Communications "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="dd18b47e-497d-48a1-b65e-b1687ee3b95b" name=" Lead Variant Software Release 1...n (Specify) "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="d81dae8e-8f6b-486d-a7a6-65610e5b3fcf" name="Other Lead Variant Subsystems 1...n (Specify)"/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="f201ccc5-510d-4b86-8ba2-f6675f1d74d2" name="Variant 2...n (Specify) ">
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="c85c4bcb-e223-40e2-aedf-c4475bc31a85" name="Variant Integration, Assembly, Test, and Checkout "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="35a7691d-1887-4acc-b05d-b7d0182b426c" name="Hull/Frame/Body/Cab "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="be00d394-1776-43fa-b3aa-018e5983d19a" name="System Survivability "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="633d0188-5ff6-4746-9f9b-273b662414ca" name="Turret Assembly "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="3de6eb16-bea1-45e6-a6e2-b467592e4734" name="Suspension/Steering "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="a26ae960-48e6-4e62-8679-11755e746d49" name="Vehicle Electronics "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="00a13271-9007-47d6-88c9-cf8a88b76664" name="Power Package/Drive Train "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="fb4348a6-8b91-4d17-b40b-e638b316116c" name="Auxiliary Automotive "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="469f144b-a51f-4410-9aee-3def74093519" name="Fire Control "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="9c44f41c-b0d2-44cf-8c7c-10c5c5c06051" name="Armament "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="b3bae2ed-4324-4967-b722-51cc7ffd0c7e" name="Automatic Ammunition Handling "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="c77d3e6e-b10c-49c1-9e38-bd78dba5b77c" name="Navigation and Remote Piloting Systems"/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="641440ed-3cbf-4026-b232-221ab935b7f6" name="Special Equipment "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="e0449ab8-3dd4-4dfb-a9ba-8cca46874faa" name="Communications"/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="bb190d07-7f3d-4f7f-9a2d-1d019bb023f3" name="Variant Software Release 1...n (Specify) "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="ef214b60-7751-497f-a1dd-67faeff56825" name="Other Variant Subsystems 1...n (Specify) "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="e64df28f-e25c-4f17-af73-0b1d803a828d" name="Equipment Kits 1...n (Specify) "/>
+                </ownedLogicalComponents>
+              </ownedLogicalComponents>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="2ca9c66a-1c56-49ad-b610-5c6c378c6733" name="Secondary Vehicle ( See Note at G.4.3) "/>
+              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                  id="13c3a0d1-72e2-4d98-a37d-de93d935f4fc" name="Systems Engineering  ">
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="c20a3d31-efc1-4e0a-817f-47e4c40eb047" name="Software Systems Engineering "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="dd5a3daa-ac90-41de-987c-e86cdcb6e25d" name="Integrated Logistics Support (ILS) Systems Engineering "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="c8fb46c2-b9b6-4cd6-9859-e5076befae88" name="Cybersecurity Systems Engineering "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="a823d885-b576-4ec1-b7ef-360005b78d90" name="Core Systems Engineering "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="bec7a3da-f30e-428f-87c6-f5c98fba6aeb" name="Other Systems Engineering 1...n (Specify) "/>
+                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                    id="3fc25fbb-3e4f-4358-ad25-752c5c6d1457" name="Program Management   ">
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="7200e4e0-7320-41ad-a1f7-45154da147f9" name="Software Program Management "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="77e7f1c4-6c28-47ea-8a2a-af99343c741a" name="Integrated Logistics Support (ILS) Program Management "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="d5220650-a8e3-422e-a986-4bcd65629006" name="Cybersecurity Management "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="54e93144-e4e1-4bac-8d1e-2fd67c156ae1" name="Core Program Management "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="1c91d486-e0a6-4d3e-9bbb-8235982d043b" name="Other Program Management 1...n (Specify) "/>
+                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                      id="c6f7ecf4-b19a-4641-8b34-04c84528adf5" name="System Test and Evaluation   ">
+                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                        id="1dee1b38-9b21-45f7-8546-7abc5c358dfd" name="Developmental Test and Evaluation ">
+                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                          id="19fa740f-f0ab-48e4-a71b-12d375f57f47" name="Cybersecurity Test and Evaluation "/>
+                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                          id="8f37e8db-a19d-4014-b1b8-de3782dba998" name="Other DT&amp;E Tests 1…n (Specify) "/>
+                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                          id="0957dc20-0fca-4240-a104-f2a2d934fda1" name="Operational Test and Evaluation ">
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="33dcc691-4f7d-487c-a573-0a9ae7e18b63" name="Cybersecurity Test and Evaluation "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="d6cee0bb-a08b-409e-be03-7cdf4bad6a77" name="Other OT&amp;E Tests 1…n (Specify) "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="77b2c29e-d659-4374-8e7c-36f308160b6a" name="Live Fire Test and Evaluation "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="63f13cad-1919-46c4-9793-25ff94a1ba55" name="Mock-ups/System Integration Labs (SILs) "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="334e2d27-d68c-4fe3-a34e-c50777ec7433" name="Test and Evaluation Support "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="f43227ea-fa23-42b6-8cd1-deb78e789f96" name="Test Facilities "/>
+                      </ownedLogicalComponents>
+                    </ownedLogicalComponents>
+                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                        id="b1bfc85f-7f58-44ae-aec1-7ff29af9a20a" name="Training ">
+                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                          id="d577b613-9dd3-494b-bcad-675b66b80853" name="Equipment ">
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="642c23bd-f97c-44ae-a8f6-c21d2c5bed17" name="Operator Instructional Equipment "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="726dce17-00c8-4923-b0f0-a4298f2bc42c" name="Maintainer Instructional Equipment "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="9da145b1-7392-433f-8d12-1c89d25d8cb0" name="Services ">
+                          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                              id="78975262-7a7c-4344-a1d4-1242eb8a6f4d" name="Operator Instructional Services "/>
+                          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                              id="e58173e1-d6e8-4325-a37a-0de3c92d8f6d" name="Maintainer Instructional Services "/>
+                          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                              id="aff5c691-18ad-4e47-90a2-a0d271ed8bd7" name="Facilities  "/>
+                          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                              id="68df7e00-6354-4915-9a9b-d1d01e75fc2e" name="Training Software 1...n (Specify) "/>
+                        </ownedLogicalComponents>
+                      </ownedLogicalComponents>
+                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                          id="caf4b6ba-2082-41de-a9f9-b73a2c94ee19" name="Data ">
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="dccb1ce4-b1e4-4f57-ae68-1368df68469b" name="Data Deliverables 1...n (Specify) "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="1c0d3a75-4ba3-4986-aeb0-1a40400946c0" name="Data Repository "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="5f61bdef-c75d-4aeb-8699-fbfcba7275c0" name="Data Rights 1...n (Specify) "/>
+                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                            id="cf623c30-55b1-4b69-a550-714965db2b9a" name="Peculiar Support Equipment ">
+                          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                              id="6c67110c-f430-4981-b209-681a9bee53f0" name="Test and Measurement Equipment ">
+                            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                id="a3135255-3f90-495a-88b6-1f671a9604a1" name="Test and Measurement Equipment (Airframe/Hull/Vehicle) "/>
+                            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                id="04238fed-ebe9-4328-b481-6075b5244e42" name="Test and Measurement Equipment (Propulsion) "/>
+                            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                id="045e6482-3c61-4690-bb48-0889e8648fed" name="Test and Measurement Equipment (Electronics/Avionics) "/>
+                            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                id="599db76e-9f6b-4546-aff6-dddb763ae4d0" name="Test and Measurement Equipment (Other Major Subsystems 1...n (Specify)) "/>
+                            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                id="6da67085-ab74-4858-9745-9c995f16feea" name="Support and Handling Equipment ">
+                              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                  id="d830c512-77bc-47e3-b356-adc43ff44ae2" name="Support and Handling Equipment (Airframe/Hull/Vehicle) "/>
+                              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                  id="f7989995-921e-4d93-8d77-71a655d7e951" name="Support and Handling Equipment (Propulsion) "/>
+                              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                  id="c1068513-534f-46a6-97dc-72245c1d03d7" name="Support and Handling Equipment (Electronics/Avionics) "/>
+                              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                  id="3228c49b-9216-4f5b-8c53-b0ea13671c86" name="Support and Handling Equipment (Other Major Subsystems 1...n (Specify)) "/>
+                              <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                  id="5afbd28f-6b23-4a8c-8c1f-08d14229933b" name="Common Support Equipment ">
+                                <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                    id="567291a4-2f3e-4916-8677-0a53977055ff" name="Test and Measurement Equipment ">
+                                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                      id="b4e39835-0de7-4fbd-b38c-78c6109d331b" name="Test and Measurement Equipment (Airframe/Hull/Vehicle) "/>
+                                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                      id="9b63d3cb-83a0-4ecc-ab04-92bec2261088" name="Test and Measurement Equipment (Propulsion) "/>
+                                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                      id="ecdd4e67-2ff8-4b3b-9022-a7acd2e07793" name="Test and Measurement Equipment (Electronics/Avionics) "/>
+                                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                      id="49d0beb3-6413-4a2f-a918-4e1223e025ed" name="Test and Measurement Equipment (Other Major Subsystems 1...n (Specify)) "/>
+                                  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                      id="a8e6dda4-ca7c-4703-8919-03ab1a43e55b" name="Support and Handling Equipment ">
+                                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                        id="b29caaff-9bfa-4e26-a7d1-81313490d98c"
+                                        name="Support and Handling Equipment (Airframe/Hull/Vehicle) "/>
+                                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                        id="c85d5999-38a1-4903-a9f4-d33865f1afa1"
+                                        name="Support and Handling Equipment (Propulsion) "/>
+                                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                        id="fc65c8de-7153-43ce-94e0-fb07490c5f2d"
+                                        name="Support and Handling Equipment (Electronics/Avionics) "/>
+                                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                        id="7a3ee8c8-839c-478a-ba33-39edb2553100"
+                                        name="Support and Handling Equipment (Other Major Subsystems 1...n (Specify)) "/>
+                                    <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                        id="a5874e31-168c-4746-a139-aabd8fed525a"
+                                        name="Operational/Site Activation by Site 1...n (Specify) ">
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="b1b12b34-6f35-4ab7-946c-cc1921512afb"
+                                          name="System Assembly, Installation, and Checkout "/>
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="dd3cf21c-c961-41da-87f8-ac39744a6a17"
+                                          name="Contractor Technical Support "/>
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="68b94138-2e7f-481c-869f-337d8469bc3c"
+                                          name="Site Construction "/>
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="8388f6a7-5a93-4b68-9e53-8e06988ca4f3"
+                                          name="Site/Ship/Vehicle Conversion "/>
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="c1d58afa-d390-4c0d-a424-626742e17903"
+                                          name="Interim Contractor Support "/>
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="6c5334b0-ef22-4291-b1b4-e2671ea5b01a"
+                                          name="Contractor Logistics Support (CLS) "/>
+                                      <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                          id="18d000f0-f268-47ac-9b6f-d8aa42631583"
+                                          name="Industrial Facilities ">
+                                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                            id="8d955492-a355-4971-aa38-4f6f5cc289a5"
+                                            name="Construction/Conversion/Expansion "/>
+                                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                            id="2b515f7b-2378-498a-adb9-629e88300200"
+                                            name="Equipment Acquisition or Modernization "/>
+                                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                            id="ca8ad1e9-7372-44d7-b688-23f348882492"
+                                            name="Maintenance (Industrial Facilities) "/>
+                                        <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                                            id="06ce01a1-4d5f-47d0-9432-cfece77a4e81"
+                                            name="Initial Spares and Repair Parts"/>
+                                      </ownedLogicalComponents>
+                                    </ownedLogicalComponents>
+                                  </ownedLogicalComponents>
+                                </ownedLogicalComponents>
+                              </ownedLogicalComponents>
+                            </ownedLogicalComponents>
+                          </ownedLogicalComponents>
+                        </ownedLogicalComponents>
+                      </ownedLogicalComponents>
+                    </ownedLogicalComponents>
+                  </ownedLogicalComponents>
+                </ownedLogicalComponents>
+              </ownedLogicalComponents>
+            </ownedLogicalComponents>
+          </ownedLogicalComponents>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="cc967b23-81a2-4b42-bf88-94dfcc675ba7" targetElement="#66b26b78-0a60-4cff-86d5-3fd3419da5e8"
               sourceElement="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
