@@ -256,6 +256,11 @@
             name="Logical System" abstractType="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="896ef2aa-001d-4219-96e8-4a018cae7cfe" name="Logical System">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b820dc4a-8dee-4e18-b338-4ba5f35c0a2b"
+              name="Engine Block" abstractType="#7c322120-8b9b-4de6-8795-7cf5ed784216"/>
+          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+              id="cc967b23-81a2-4b42-bf88-94dfcc675ba7" targetElement="#66b26b78-0a60-4cff-86d5-3fd3419da5e8"
+              sourceElement="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="7c322120-8b9b-4de6-8795-7cf5ed784216" name="Engine Block"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -304,9 +309,6 @@
               id="ca68ae3a-b804-4f18-8fe8-0fc3d33d3ec1" name="EGR System"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="1f50c1aa-a571-45f8-a9d0-18256ecd075a" name="Particulate Filter"/>
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="cc967b23-81a2-4b42-bf88-94dfcc675ba7" targetElement="#66b26b78-0a60-4cff-86d5-3fd3419da5e8"
-              sourceElement="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
         </ownedLogicalComponents>
       </ownedLogicalComponentPkg>
       <ownedSystemAnalysisRealizations xsi:type="org.polarsys.capella.core.data.la:SystemAnalysisRealization"
