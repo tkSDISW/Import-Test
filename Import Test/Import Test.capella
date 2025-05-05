@@ -287,6 +287,54 @@
               id="b39cd21e-5f7c-4b8a-b43d-f3a17e0f1551" name="Reduces emissions by recirculating exhaust gases"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="68c91eac-925c-491c-92c5-de41c74cc10f" name="Captures soot and particulate matter from exhaust gases"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="75169985-d015-4a6d-99f2-6ea20c2d5b32" name="Foundation of the engine, housing cylinders for combustion"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="396fe94f-19c9-4b7d-aa80-64d2415eeebe" name="Chambers where air is compressed and diesel fuel is injected"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="fcd73b85-61d0-4c8b-a6a8-04c0890dc679" name="Convert energy from combustion into mechanical energy"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="67101337-cf99-4cdd-b2c2-e273b58cfcfd" name="Converts linear motion of pistons into rotational motion"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="4dcc8c81-d406-4afe-a110-f5745768698f" name="Connect pistons to crankshaft, transmitting motion"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="b7a5dfc0-9bc7-492e-9ad5-bc52703e8870" name="Seals the top of the engine block, forming combustion chamber"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="5760c047-a299-4448-b355-a771214a645f" name="Regulate the flow of air into cylinders and exhaust gases out"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="85958793-e470-4aae-9404-68ff6f2f42ae" name="Controls the opening and closing of intake and exhaust valves"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f6c9415a-61a7-450c-9f37-0b991f232fce" name="Synchronizes the rotation of crankshaft and camshaft"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f9443e80-e1c6-4092-9ac2-da05b5dd8e04" name="Delivers diesel fuel into the combustion chamber"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="7c0d40f2-33d9-4709-a9d0-269b1ed0eee8" name="Increases air entering the engine, improving power and efficiency"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="1cf0c1ff-d9de-42a0-9290-3b808e45fd89" name="Cools compressed air from turbocharger before entering engine"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="3a1eefcf-b859-4b07-9812-db135c395620" name="Preheats combustion chamber to assist in cold starting"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="c2f3e0be-5dd8-4b6e-af21-195811bcd1c3" name="Pumps diesel fuel from tank to injectors at high pressure"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="462576d2-5902-422a-ac41-77503f0971f1" name="Collects exhaust gases and directs them to the exhaust system"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="02dfc87c-e018-42d1-adba-6e595c5da46c" name="Distributes air to the engine's cylinders"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="c8b0d227-c138-4284-a13d-c3b6d42792df" name="Circulates oil throughout the engine for lubrication"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="8b99e996-00d5-4a96-b254-b87ad1e6777d" name="Circulates coolant to regulate engine temperature"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="2e63b103-f007-4a0e-a8c1-baaaee995dd0" name="Cools the engine by dissipating heat from the coolant"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f65fedde-6b92-426e-811d-4e5bfe469671" name="Stores rotational energy and smooths power pulses"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="504cc001-2e80-4f82-a031-f979a28ae37f" name="Filters air before it enters the engine"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="4eb1fdc2-7cf4-49b9-be72-5ed4ca44afb8" name="Controls fuel injection timing, air intake, and turbocharging"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d4535d7f-3851-47a5-a643-0d5aa72f680b" name="Reduces emissions by recirculating exhaust gases"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="a4a9d34a-5589-46b6-a180-ff6a7cff7fa0" name="Captures soot and particulate matter from exhaust gases"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="ffcceba0-5160-44b5-a15b-96b7219a0990" targetElement="#62187c27-fddc-4eef-9c3f-7f75e8463689"
               sourceElement="#e22570d0-e46f-449f-a743-bb998384867c"/>
@@ -304,6 +352,102 @@
             name="Logical System" abstractType="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="896ef2aa-001d-4219-96e8-4a018cae7cfe" name="Logical System">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1ab884bb-3971-41c1-ab1f-62515a646849"
+              name="Engine Block" abstractType="#78d76ddf-090e-4f44-b868-d32546c677cf"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f09e3f19-917c-436c-b1e1-ff6a6d9e64e9"
+              name="Cylinders" abstractType="#ba42b20a-17d5-4f00-8b5c-3796ce00f64c"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="da3ad791-c903-447c-b411-18ede8420d6d"
+              name="Pistons" abstractType="#903c5af8-c539-442e-8a25-998eef9f2b6f"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="72622ae8-bc8b-44ed-9186-9ca0ad146444"
+              name="Crankshaft" abstractType="#d091a14b-0e83-4a29-aeaf-976bb39b074e"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0be61696-9cf1-4959-a25b-da40bfe9144d"
+              name="Connecting Rods" abstractType="#1527e536-f727-4aca-a2cb-fb19354e0054"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a715d1b-1f69-4a49-be00-3bf5f22092d8"
+              name="Cylinder Head" abstractType="#ed06983a-851b-474b-a241-0f5c5fe38749"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="67af4826-ffd8-4b73-b7cd-f0d359148e57"
+              name="Valves" abstractType="#dd8e91ca-338d-41c6-b9e6-87bb4e52a104"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ed8f3845-9a65-4e73-abed-9517a4adc7ff"
+              name="Camshaft" abstractType="#2293368b-0e91-4e9b-a32c-122f6ff33250"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7ecd9f21-2d6c-466e-8b42-0286c0663ca8"
+              name="Timing Chain/Belt" abstractType="#4b6281de-8c1f-44e8-b122-78e15c4d487a"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2196cbce-a75e-4692-9a4f-a46201a3e8e9"
+              name="Fuel Injectors" abstractType="#74b0bf34-00a7-42fe-b970-5836a980e6ad"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bf4173eb-668c-4e28-bdcd-3a7f4daf8429"
+              name="Turbocharger" abstractType="#9c21f6e3-3a01-439b-a8b8-2e663fefed10"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5b5df876-b6ad-4b42-9f28-fc0205547d4d"
+              name="Intercooler" abstractType="#77709187-0187-42d0-9829-7274a1997e41"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f7c5307e-b861-4927-b244-d11a08b385e5"
+              name="Glow Plugs" abstractType="#f627e0ba-e1ff-46b5-8779-5cbb4e074aa5"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="5b453a58-1c37-4a4a-bdf6-f08f8b6c1072"
+              name="Fuel Pump" abstractType="#d1b302f1-05dd-4dbc-853e-da6af61ef747"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="855c892e-80eb-419f-a6a0-ad388eecc14e"
+              name="Exhaust Manifold" abstractType="#6f39ad2d-edb3-427b-a1bb-0c996ef75074"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="dcb2251b-b080-47c3-ac13-42304fece62c"
+              name="Intake Manifold" abstractType="#10051e89-f072-4386-b373-44d6aa9da911"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="742df960-94d4-4c0d-bc9f-3430a52fb269"
+              name="Oil Pump" abstractType="#9e8e82ed-cae1-48c4-a0c3-4811b8573a25"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8ac6162f-e739-44e6-9506-2f1c06b60a79"
+              name="Water Pump" abstractType="#d8b1410c-6307-462d-b1f5-d8294787caf9"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="26d0af9a-bfeb-4d26-bbb1-c0c570646432"
+              name="Radiator" abstractType="#9385bd3b-2d62-4a11-99f7-62e210373973"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b5d481cc-445d-42e4-a06a-4f4b44e497e1"
+              name="Flywheel" abstractType="#9c632537-ffd8-4f9c-bfec-0df2171b96ea"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c04dd7cc-b9e3-40c8-9a37-b88d0997d9af"
+              name="Air Filter" abstractType="#01f40a90-df45-42e3-a743-5ee57591c807"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="10d24a6d-7508-42ac-b32d-31501055d0e3"
+              name="Engine Control Unit" abstractType="#9c2fa946-6eb2-49cd-8e77-181e315955eb"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1c67de19-1a66-4573-b554-22ac7222c39c"
+              name="EGR System" abstractType="#53ee063b-df15-4d8c-8290-9721be15790d"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="24bb2313-7a54-4df8-9260-d90baf0c79ad"
+              name="Particulate Filter" abstractType="#cfd2ae05-bb96-4854-9808-7e8e106383cf"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="78d76ddf-090e-4f44-b868-d32546c677cf" name="Engine Block"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="ba42b20a-17d5-4f00-8b5c-3796ce00f64c" name="Cylinders"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="903c5af8-c539-442e-8a25-998eef9f2b6f" name="Pistons"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="d091a14b-0e83-4a29-aeaf-976bb39b074e" name="Crankshaft"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="1527e536-f727-4aca-a2cb-fb19354e0054" name="Connecting Rods"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="ed06983a-851b-474b-a241-0f5c5fe38749" name="Cylinder Head"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="dd8e91ca-338d-41c6-b9e6-87bb4e52a104" name="Valves"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="2293368b-0e91-4e9b-a32c-122f6ff33250" name="Camshaft"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="4b6281de-8c1f-44e8-b122-78e15c4d487a" name="Timing Chain/Belt"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="74b0bf34-00a7-42fe-b970-5836a980e6ad" name="Fuel Injectors"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9c21f6e3-3a01-439b-a8b8-2e663fefed10" name="Turbocharger"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="77709187-0187-42d0-9829-7274a1997e41" name="Intercooler"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="f627e0ba-e1ff-46b5-8779-5cbb4e074aa5" name="Glow Plugs"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="d1b302f1-05dd-4dbc-853e-da6af61ef747" name="Fuel Pump"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="6f39ad2d-edb3-427b-a1bb-0c996ef75074" name="Exhaust Manifold"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="10051e89-f072-4386-b373-44d6aa9da911" name="Intake Manifold"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9e8e82ed-cae1-48c4-a0c3-4811b8573a25" name="Oil Pump"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="d8b1410c-6307-462d-b1f5-d8294787caf9" name="Water Pump"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9385bd3b-2d62-4a11-99f7-62e210373973" name="Radiator"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9c632537-ffd8-4f9c-bfec-0df2171b96ea" name="Flywheel"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="01f40a90-df45-42e3-a743-5ee57591c807" name="Air Filter"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="9c2fa946-6eb2-49cd-8e77-181e315955eb" name="Engine Control Unit"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="53ee063b-df15-4d8c-8290-9721be15790d" name="EGR System"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="cfd2ae05-bb96-4854-9808-7e8e106383cf" name="Particulate Filter"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="cc967b23-81a2-4b42-bf88-94dfcc675ba7" targetElement="#66b26b78-0a60-4cff-86d5-3fd3419da5e8"
               sourceElement="#896ef2aa-001d-4219-96e8-4a018cae7cfe"/>
